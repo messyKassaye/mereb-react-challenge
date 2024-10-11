@@ -1,0 +1,30 @@
+{
+	// Enable format on save
+	"editor.formatOnSave": true,
+
+	// Ensure Prettier is used as the default formatter
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+
+	// Enable ESLint auto-fix on save
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit"
+	},
+
+	// Optional: Add specific language formatting
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	// Prettier-specific settings (optional)
+	"prettier.semi": false, // Remove semicolons
+	"prettier.singleQuote": false, // Use single quotes
+	"prettier.trailingComma": "all", // Add trailing commas
+	"prettier.tabWidth": 2, // Set tab width to 2 spaces
+	"prettier.useTabs": true // Use spaces instead of tabs
+}
